@@ -1,7 +1,7 @@
 body {
     font-family: 'Times New Roman', Times, serif, sans-serif;
 }
-header, footer {
+header {
     background-color: burlywood;
     color: orange
     padding: 10px;
@@ -17,4 +17,19 @@ nav ul li {
 }main {
     padding: 20px
     text-align: center;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+background-color: burlywood ;
+color: brown;
+padding: 10px;
+position: absolute;
+bottom: 0px;
+text-align: center;
+left: 40% 
 }
