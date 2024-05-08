@@ -1,35 +1,101 @@
 body {
     font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(white , burlywood);
+    height: 100%;
 }
+
 header {
     background-color: burlywood;
-    color: orange
+    color: brown;
     padding: 10px;
     text-align: center;
 }
-nav ul{
-    list-style-type: none
-    padding: 0;
+
+h1 {
+    color: black;
 }
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}main {
-    padding: 20px
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
     text-align: center;
 }
 
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
 img {
-    width: 200px;
+    width: 300px;
     height: auto;
+    /* margin: 0px auto 0px auto; */
+
 }
 
 footer {
-background-color: burlywood ;
-color: brown;
-padding: 10px;
-position: absolute;
-bottom: 0px;
-text-align: center;
-left: 40% 
+    background-color: burlywood;
+    color: brown;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.75;
+}
+li {
+    text-align: center;
+    font-family: fantasy;
+}
+
+ol {
+    width: 500px;
+    margin: 0px auto 0px auto ;
+}
+
+/* Chat container styles */
+.chat-container {
+    width: 200px;
+    height: 200px;
+    background-color: burlywood;
+    border: 1px solid #ccc;
+    overflow-y: scroll; /* Enable vertical scrolling */
+    float: right; /* Float the chat container to the right */
+    margin-left: 20px; /* Add some space between the chat container and the rest of the content */
+    padding: 10px; /* Add padding inside the chat container */
+}
+
+/* Chat box styles */
+.chat-box {
+    margin-bottom: 10px; /* Add space between messages */
+}
+
+/* Message input styles */
+.message-input {
+    display: flex; /* Use flexbox for input and button alignment */
+}
+
+.message-input input {
+    flex: 1; /* Take up remaining space */
+    padding: 5px; /* Add padding inside the input field */
+    margin-right: 5px; /* Add some space between input field and button */
+}
+
+.message-input button {
+    padding: 5px 10px; /* Add padding inside the button */
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
