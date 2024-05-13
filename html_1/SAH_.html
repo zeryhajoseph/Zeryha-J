@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Schedule Appointments</title>
+        <meta charset='utf-8' />
+        <link href='fullcalendar/main.css' rel='stylesheet' />
+        <script src='fullcalendar/main.js'></script>
+        <link rel="stylesheet" type="text/css" href="SAHstyle_.css">
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var calendarEl = document.getElementById('calendar');
+
+                var calendar = new FullCalendar.Calendar(calendarEl, {
+                    initialView: 'dayGridMonth'
+                    // other options and callbacks here...
+                });
+
+                calendar.render();
+
+                // Add form submission logic
+                var form = document.querySelector('form');
+                form.addEventListener('submit', function(event) {
+                    event.preventDefault(); // Prevent form submission
+                    // Add your form submission code here
+                    // For example, you can collect form data and process it
+                    // You can also display a confirmation message or redirect to another page
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id='calendar'></div>
+        <header>
+            <h1>Book Your Appointments</h1>
+        </header>
+        <main>
+            <form>
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last Name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone"><br><br>
+                <input type="date" id="date" name="date">
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+        <footer>
+            <!-- Footer content here -->
+        </footer>
+    </body>
+</html>

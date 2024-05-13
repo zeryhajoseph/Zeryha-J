@@ -1,0 +1,47 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 30px auto 30px auto;;
+    padding: 0;
+    background-image: radial-gradient(white , burlywood);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container {
+    width: 400px;
+    padding: 20px;
+    background-color: burlywood;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+main {
+    padding: 100px;
+    text-align: center;
+    margin-bottom: 100Spx;
+    border: 20px solid bisque;
+    font-family: fantasy;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input, button {
+    margin: 5px;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+button {
+    background-color: burlywood;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,49 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(white, burlywood);
+    color: black;
+}
+
+header {
+    background-color: burlywood;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.tip {
+    background-color: bisque;
+    border: 1px solid bisque;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-family: fantasy;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: burlywood;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+p{
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
