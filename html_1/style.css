@@ -85,20 +85,28 @@ ol {
 label {
     display: block;
     margin: 20px 20px 20px 20px;
+    text-align:center;
+    color:brown;
 }
 
 textarea {
     width: 200px;
     height: 50px;
+    font-family: "poppins", sans-serif;
+    
 }
 
 button {
     width: 100px;
     height: 35px;
+    color: burlywood;
 }
 h3 {
     margin: 30px auto 30px auto;
     width: 500px;
+}
+#pic3 {
+    top: 2400px;
 }
 
 #pic1 {
@@ -108,7 +116,11 @@ h3 {
     top: 900px;
 }
 
-#pic1, #pic2 {
+#pic4{
+    top: 1600px;
+}
+
+#pic1, #pic2, #pic3, #pic4 {
     position: absolute;
     left: 30px;
     width: 400px;
